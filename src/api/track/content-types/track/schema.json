@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tracks",
+  "info": {
+    "singularName": "track",
+    "pluralName": "tracks",
+    "displayName": "Track",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bookie_id": {
+      "type": "integer"
+    },
+    "client": {
+      "type": "string"
+    },
+    "page": {
+      "type": "string"
+    },
+    "element": {
+      "type": "string"
+    }
+  }
+}
